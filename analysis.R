@@ -13,5 +13,6 @@ source('scripts/1-clean.R')
 # lm1 <- lm(subset_data, a ~ b)
 
 # viz
+png('outputs/my_amazing_plot.png')
 plot(raw_data$time, raw_data$value)
-
+dev.off()
